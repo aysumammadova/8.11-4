@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cards {
+  padding: 50px 100px;
+}
+#cards .cards--main {
+  display: flex;
+}
+#cards .cards--main .photo img {
+  width: 500px;
+  height: 600px;
+}
+#cards .cards--main .about {
+  padding: 50px;
+  text-align: center;
+}
+#cards .cards--main .about p {
+  margin-bottom: 30px;
+}
+#cards .cards--main .about .tv {
+  width: 220px;
+  height: 200px;
+}
+#cards .cards--main .about .contain {
+  text-align: center;
+}
+#cards .cards--main .about .contain .download {
+  display: inline-flex;
+}
+#cards .cards--main .about .contain .download p {
+  padding-top: 10px;
+  top: 2;
+}
+#cards .cards--main .about .contain .price {
+  margin-right: -10px;
+  display: inline-flex;
+}
+#cards .cards--main .about .contain .color {
+  display: flex;
+}
+#cards .cards--main .about .contain .color .d1 {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+#cards .cards--main .about .contain .color .d2 {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(8, 85, 25);
+  border-radius: 10px;
+  margin-right: 5px;
+}
+#cards .cards--main .about .contain .color .d3 {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(173, 73, 19);
+  border-radius: 10px;
+  margin-right: 5px;
+}
+#cards .cards--main .about .contain .color .d4 {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(5, 5, 50);
+  border-radius: 10px;
+  margin-right: 5px;
+}
+#cards .cards--footer {
+  display: flex;
+}
+#cards .cards--footer .text {
+  display: flex;
+  padding-left: 20px;
+}
+#cards .cards--footer .text h2 {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  padding-right: 10px;
+}
+#cards .cards--footer .text .easy {
+  padding-right: 10px;
+}
+#cards .cards--footer .text .easy h5 {
+  font-size: 18px;
+}
+#cards .cards--footer .text .easy p {
+  font-size: 13px;
+  color: rgb(78, 68, 68);
+}/*# sourceMappingURL=main.css.map */

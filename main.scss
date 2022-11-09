@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#cards{
+    padding: 50px 100px;
+    .cards--main{
+        display: flex;
+        .photo {
+                img {
+                    width: 500px;
+                    height: 600px;
+                }
+            }
+        .about{
+            padding: 50px;
+            text-align: center;
+           
+
+            p{
+                margin-bottom: 30px;
+            }
+            .tv{
+                width: 220px;
+                height: 200px;
+            }
+            .contain{
+                text-align: center;
+            
+            .download{
+                display: inline-flex;
+                p{
+                    padding-top: 10px;
+                    top: 2;
+                }
+            }
+            .price{
+                margin-right: -10px;
+                display: inline-flex;
+            }
+            .color{
+                    display: flex;
+                    .d1{
+                        width: 15px;
+                        height: 15px;
+                        background-color: blue;
+                        border-radius: 10px;
+                        margin-right: 5px;
+                    }
+                    .d2{
+                        width: 15px;
+                        height: 15px;
+                        background-color: rgb(8, 85, 25);
+                        border-radius: 10px;
+                        margin-right: 5px;
+                    }
+                    .d3{
+                        width: 15px;
+                        height: 15px;
+                        background-color: rgb(173, 73, 19);
+                        border-radius: 10px;
+                        margin-right: 5px;
+                    }
+                    .d4{
+                        width: 15px;
+                        height: 15px;
+                        background-color: rgb(5, 5, 50);
+                        border-radius: 10px; 
+                        margin-right: 5px;
+                    }
+            }
+            }
+        }
+    }
+    .cards--footer{
+        display: flex;
+        .text{
+            display: flex;
+            padding-left: 20px;
+            h2{
+                text-align: center;
+                color: red;
+                font-size: 40px;
+                padding-right: 10px;   
+            }
+            .easy{
+                padding-right: 10px;
+                h5{
+                 font-size: 18px;
+                }
+                p{
+                 font-size: 13px;
+                 color: rgb(78, 68, 68)
+                }
+             }
+        }
+    }
+}
